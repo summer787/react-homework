@@ -1,8 +1,8 @@
 
 import'./App.css'
 import '/src/styles/Button.css'
-import Defaultbutton from './components/Defaultbutton'
-import Disabledbutton from './components/Disabledbutton'
+import Defaultbutton from './component/Defaultbutton'
+import Disabledbutton from './component/Disabledbutton'
 
 
 function App() {

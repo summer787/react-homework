@@ -5,11 +5,12 @@
   background-color: #00C4EF;
   border: none;
   font-size: 35px;
+  font-family: sans-serif;
   color:white;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  font-family: sans-serif;
+  
 }
 
 .disabled-button {
@@ -18,8 +19,8 @@
   background-color: #CEE0E4;
   border: none;
   font-size: 35px;
+  font-family: sans-serif;
   color:white;
   display: flex;
   align-items: center;
-  font-family: sans-serif;
 }

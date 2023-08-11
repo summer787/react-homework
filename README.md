@@ -1,6 +1,7 @@
 ## 버튼 컴포넌트 렌더링
 ### 피그마 시안
 ![image](https://github.com/summer787/Lion-Javascript/assets/90172574/f22a4355-7897-42ba-8a18-cff151f30fa4)
+### [피그마 링크](https://www.figma.com/file/L4shUyhauTZArLv4KOetx8/Button-Component?type=design&node-id=1%3A3&mode=design&t=79cA07pixp40wHDl-1)
 
 APP.jsx
 ```jsx

@@ -11,9 +11,9 @@ function App() {
     <div className='container'>
       
       <h2>First Components</h2>
-      <p>Default button</p>
+     
       <Defaultbutton/>
-      <p>Disabled button</p>
+    
       <Disabledbutton/>
      
     </div>

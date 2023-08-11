@@ -1,0 +1,24 @@
+
+.default-button {
+  width : 180px;
+  height : 70px;
+  background-color: #00C4EF;
+  border: none;
+  font-size: 35px;
+  color:white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.disabled-button {
+  width : 180px;
+  height : 70px;
+  background-color: #CEE0E4;
+  border: none;
+  font-size: 35px;
+  color:white;
+  display: flex;
+  align-items: center;
+}

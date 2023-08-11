@@ -1,16 +1,20 @@
 
-import './App.css'
-import './components/Button'
-import Button from './components/Button'
+import'./App.css'
+import '/src/styles/Button.css'
+import Defaultbutton from './components/Defaultbutton'
+import Disabledbutton from './components/Disabledbutton'
+
 
 function App() {
 
-
   return (
-    <div>
+    <div className='container'>
       
       <h2>First Components</h2>
-      <Button />
+      <p>Default button</p>
+      <Defaultbutton/>
+      <p>Disabled button</p>
+      <Disabledbutton/>
      
     </div>
   )

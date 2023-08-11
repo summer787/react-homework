@@ -1,4 +1,4 @@
-## 버튼 컴포넌트 렌더링
+## 버튼 컴포넌트 화면에 렌더링
 ### 피그마 시안
 ![image](https://github.com/summer787/Lion-Javascript/assets/90172574/f22a4355-7897-42ba-8a18-cff151f30fa4)
 ### [피그마 링크](https://www.figma.com/file/L4shUyhauTZArLv4KOetx8/Button-Component?type=design&node-id=1%3A3&mode=design&t=79cA07pixp40wHDl-1)
@@ -92,4 +92,4 @@ Button.css
 ```
 
 ### 화면에 렌더링
-![image](https://github.com/summer787/react-homework/assets/90172574/e298f168-2b3c-4f96-ad48-c5b98f491c85)
+![image](https://github.com/summer787/react-homework/assets/90172574/4edcfabb-da8c-402f-9a46-a5e08bd11f4a)

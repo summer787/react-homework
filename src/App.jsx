@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='container'>
       
-      <h2>First Components</h2>
+      <h2>First Component</h2>
      
       <Defaultbutton/>
     

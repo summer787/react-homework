@@ -98,6 +98,8 @@ Button.css
 
 
 ### 화면에 렌더링
-![image](https://github.com/summer787/react-homework/assets/90172574/4edcfabb-da8c-402f-9a46-a5e08bd11f4a)
+### 모듈 불러오기 수정
+![image](https://github.com/summer787/react-homework/assets/90172574/afae4a18-f1fe-4d5b-8350-15d802dc1332)
+
 
 복습 후 계속 수정하겠습니다😭😢

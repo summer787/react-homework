@@ -98,7 +98,7 @@ Button.css
 
 
 ### 화면에 렌더링
-### 모듈 불러오기 수정
+#### CSS 모듈 불러오기 수정
 ![image](https://github.com/summer787/react-homework/assets/90172574/afae4a18-f1fe-4d5b-8350-15d802dc1332)
 
 

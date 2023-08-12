@@ -1,10 +1,10 @@
-import '/src/styles/Button.css'
+import styles from '/src/styles/Button.module.css'
 
 
-function Disabledbutton() {
+function Disabledbutton({ label, text }) {
   return (
     <div>
-    <button className='disabled-button'>Button</button>
+    <button className={styles.disabledbtn} aria-label={ label }>{ text }</button>
     </div>
   )
 }

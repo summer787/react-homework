@@ -1,9 +1,10 @@
-import '/src/styles/Button.css'
+import styles from '/src/styles/Button.module.css'
 
-function Defaultbutton() {
+function Defaultbutton({ label, text }) {
   return (
+   
     <div>
-    <button className='default-button'>Button</button>
+    <button className={styles.defaultbtn} aria-label={ label }>{ text }</button>
     </div>
   )
 }

@@ -1,15 +1,14 @@
-## 버튼 컴포넌트 화면에 렌더링
+## 버튼 컴포넌트 과제 (조금 수정)
 ### 피그마 시안
 ![image](https://github.com/summer787/Lion-Javascript/assets/90172574/f22a4355-7897-42ba-8a18-cff151f30fa4)
 ### [피그마 링크](https://www.figma.com/file/L4shUyhauTZArLv4KOetx8/Button-Component?type=design&node-id=1%3A3&mode=design&t=79cA07pixp40wHDl-1)
 
-APP.jsx
+### APP.jsx
 ```jsx
-
 import'./App.css'
-import '/src/styles/Button.css'
-import Defaultbutton from './components/Defaultbutton'
-import Disabledbutton from './components/Disabledbutton'
+import '/src/styles/Button.module.css'
+import Defaultbutton from './component/Defaultbutton'
+import Disabledbutton from './component/Disabledbutton'
 
 
 function App() {
@@ -17,27 +16,33 @@ function App() {
   return (
     <div className='container'>
       
-      <h2>First Components</h2>
+      <h2>First Component</h2>
      
-      <Defaultbutton/>
+      <Defaultbutton
+      label="기본 버튼"
+      text="button"/>
     
-      <Disabledbutton/>
+      <Disabledbutton
+      label="사용 불가 버튼"
+      text="button"/>
      
     </div>
   )
 }
 
 export default App
+
 ```
 
-Defaultbutton.jsx
+### Defaultbutton.jsx
 ```jsx
-import '/src/styles/Button.css'
+import styles from '/src/styles/Button.module.css'
 
-function Defaultbutton() {
+function Defaultbutton({ label, text }) {
   return (
+   
     <div>
-    <button className='default-button'>Button</button>
+    <button className={styles.defaultbtn} aria-label={ label }>{ text }</button>
     </div>
   )
 }
@@ -45,15 +50,15 @@ function Defaultbutton() {
 export default Defaultbutton
 ```
 
-Disabledbutton.jsx
+### Disabledbutton.jsx
 ```
-import '/src/styles/Button.css'
+import styles from '/src/styles/Button.module.css'
 
 
-function Disabledbutton() {
+function Disabledbutton({ label, text }) {
   return (
     <div>
-    <button className='disabled-button'>Button</button>
+    <button className={styles.disabledbtn} aria-label={ label }>{ text }</button>
     </div>
   )
 }
@@ -95,4 +100,4 @@ Button.css
 ### 화면에 렌더링
 ![image](https://github.com/summer787/react-homework/assets/90172574/4edcfabb-da8c-402f-9a46-a5e08bd11f4a)
 
-복습 후 보완 예정입니다
+복습 후 수정 예정입니다 😢

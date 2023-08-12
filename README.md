@@ -1,8 +1,98 @@
-# React + Vite
+## 버튼 컴포넌트 화면에 렌더링
+### 피그마 시안
+![image](https://github.com/summer787/Lion-Javascript/assets/90172574/f22a4355-7897-42ba-8a18-cff151f30fa4)
+### [피그마 링크](https://www.figma.com/file/L4shUyhauTZArLv4KOetx8/Button-Component?type=design&node-id=1%3A3&mode=design&t=79cA07pixp40wHDl-1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+APP.jsx
+```jsx
 
-Currently, two official plugins are available:
+import'./App.css'
+import '/src/styles/Button.css'
+import Defaultbutton from './components/Defaultbutton'
+import Disabledbutton from './components/Disabledbutton'
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+function App() {
+
+  return (
+    <div className='container'>
+      
+      <h2>First Components</h2>
+     
+      <Defaultbutton/>
+    
+      <Disabledbutton/>
+     
+    </div>
+  )
+}
+
+export default App
+```
+
+Defaultbutton.jsx
+```jsx
+import '/src/styles/Button.css'
+
+function Defaultbutton() {
+  return (
+    <div>
+    <button className='default-button'>Button</button>
+    </div>
+  )
+}
+
+export default Defaultbutton
+```
+
+Disabledbutton.jsx
+```
+import '/src/styles/Button.css'
+
+
+function Disabledbutton() {
+  return (
+    <div>
+    <button className='disabled-button'>Button</button>
+    </div>
+  )
+}
+
+export default Disabledbutton
+```
+
+Button.css
+```css
+
+.default-button {
+  width : 180px;
+  height : 70px;
+  background-color: #00C4EF;
+  border: none;
+  font-size: 35px;
+  font-family: sans-serif;
+  color:white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.disabled-button {
+  width : 180px;
+  height : 70px;
+  background-color: #CEE0E4;
+  border: none;
+  font-size: 35px;
+  font-family: sans-serif;
+  color:white;
+  display: flex;
+  align-items: center;
+}
+```
+
+
+### 화면에 렌더링
+![image](https://github.com/summer787/react-homework/assets/90172574/4edcfabb-da8c-402f-9a46-a5e08bd11f4a)
+
+복습 후 보완 예정입니다

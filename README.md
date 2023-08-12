@@ -91,7 +91,8 @@ Button.css
 }
 ```
 
+
 ### 화면에 렌더링
 ![image](https://github.com/summer787/react-homework/assets/90172574/4edcfabb-da8c-402f-9a46-a5e08bd11f4a)
 
-복습 후 보완 예정입니다다
+복습 후 보완 예정입니다

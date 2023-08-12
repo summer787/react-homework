@@ -51,7 +51,7 @@ export default Defaultbutton
 ```
 
 ### Disabledbutton.jsx
-```
+```jsx
 import styles from '/src/styles/Button.module.css'
 
 
